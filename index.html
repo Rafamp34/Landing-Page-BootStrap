@@ -39,7 +39,12 @@
             </div>
         </nav>
         <section class="hero text-center position-relative">
-            <img src="./img/portada.png" class="img-fluid w-100" alt="">
+            <picture>
+                <!-- Imagen para dispositivos de escritorio -->
+                <source srcset="./img/portada.png" media="(min-width: 768px)">
+                <!-- Imagen para dispositivos móviles -->
+                <img src="./img/fondomovil.jpg" class="img-fluid w-100" alt="">
+            </picture>
             <div class="position-absolute top-50 start-0 end-0 translate-middle-y mx-auto">
                 <h2 class="py-3 blur-text">IF COMPARABLE IT IS NO LONGER KOENIGSEGG</h2>
                 <a href="#" class="btn btn-primary rounded-0 px-3 py-2">Order Now</a>
