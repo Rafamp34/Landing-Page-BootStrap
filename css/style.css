@@ -51,7 +51,7 @@
   }
   @media (max-width: 767px) {
     .hero h2 {
-      font-size: 1rem; /* Cambiar el tamaño del texto en dispositivos móviles */
+      font-size: 1rem; 
     }
   }
   @media screen and (min-width: 1200px) {
